@@ -17,7 +17,6 @@ private:
     uint8_t beats_per_minute_whole; // Starting BPM, integer part
     uint8_t beats_per_minute_frac; // Starting BPM, floating part
     uint8_t subdivisions_per_beat; // Number of sub-beats (eighth, sixteenth, etc.) per beat
-    uint8_t beats_per_pattern; // Number of beats in one pattern
 
     uint8_t num_channels; // Number of total channels
 };
